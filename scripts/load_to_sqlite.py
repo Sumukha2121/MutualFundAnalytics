@@ -1,3 +1,4 @@
+"""Load cleaned mutual fund datasets into the SQLite database."""
 import pandas as pd
 from sqlalchemy import create_engine, text
 

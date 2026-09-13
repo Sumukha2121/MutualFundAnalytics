@@ -1,3 +1,4 @@
+"""Create the SQLite database schema for the mutual fund analytics project."""
 import os
 from sqlalchemy import create_engine, text
 

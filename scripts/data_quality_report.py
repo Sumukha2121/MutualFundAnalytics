@@ -1,3 +1,4 @@
+"""Generate data quality checks and validation summaries for project datasets."""
 import os
 import pandas as pd
 

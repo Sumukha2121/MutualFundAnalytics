@@ -1,3 +1,4 @@
+"""Explore the mutual fund master dataset and summarize its structure."""
 import pandas as pd
 
 # Read the CSV file

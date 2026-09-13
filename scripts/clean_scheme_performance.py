@@ -1,3 +1,4 @@
+"""Clean and validate mutual fund scheme performance data."""
 import os
 import pandas as pd
 
@@ -44,7 +45,7 @@ df.to_csv(
     index=False
 )
 
-# Print summaryprint("=" * 50)
+# Print summary
 print("Scheme Performance Cleaning Summary")
 print("=" * 50)
 

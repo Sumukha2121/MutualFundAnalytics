@@ -1,3 +1,4 @@
+"""Validate AMFI scheme codes against the project fund master data."""
 import pandas as pd
 
 # Read both CSV files

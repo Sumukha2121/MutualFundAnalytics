@@ -1,3 +1,4 @@
+"""Inspect and validate the raw mutual fund datasets before processing."""
 import os
 import pandas as pd
 

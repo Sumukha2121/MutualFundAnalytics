@@ -1,9 +1,10 @@
+"""Fetch and store the latest available NAV data for the project."""
 import requests
 import pandas as pd
 
 url = "https://api.mfapi.in/mf/125497"
 
-response = requests.get(url)
+response = requests.get(url,timeout=30)
 
 data = response.json()
 

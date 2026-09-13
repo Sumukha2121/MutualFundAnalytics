@@ -1,3 +1,4 @@
+"""Generate mutual fund recommendations using investor risk preferences and fund metrics."""
 import pandas as pd
 
 scorecard = pd.read_csv("reports/fund_scorecard.csv")
@@ -7,10 +8,9 @@ scorecard["risk_grade"] = pd.cut(
     bins=[-float("inf"), 15, 20, float("inf")],
     labels=["Low", "Moderate", "High"]
 )
-
+"""Return the top-ranked funds matching the selected risk appetite."""
 def recommend_funds(risk_appetite, top_n=3):
     risk_appetite = risk_appetite.strip().title()
-
     if risk_appetite not in ["Low", "Moderate", "High"]:
         raise ValueError("Risk appetite must be Low, Moderate, or High.")
 

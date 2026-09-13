@@ -1,3 +1,4 @@
+"""Clean and validate investor transaction records for analytics."""
 import os
 import pandas as pd
 

@@ -1,3 +1,4 @@
+"""Create the date dimension used for time-based mutual fund analysis."""
 import sqlite3
 import pandas as pd
 
